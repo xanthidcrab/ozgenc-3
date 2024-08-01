@@ -331,18 +331,18 @@ flowchart TB
     Eksiler --> Zor-Bakım
     Eksiler --> Düşük-Test-Edilebilirlik
 
-style Model-View-ViewModel fill:#f9f,stroke:#333,stroke-width:2px;
-    style Artilar fill:#f9f,stroke:#333,stroke-width:2px;
-    style Eksiler fill:#f9f,stroke:#333,stroke-width:2px;
-    style Separation-of-Concerns fill:#f9f,stroke:#333,stroke-width:2px;
-    style Test-Edilebilirlik fill:#f9f,stroke:#333,stroke-width:2px;
-    style Kolay-Bakım fill:#f9f,stroke:#333,stroke-width:2px;
-    style Öğrenme-Eğrisi fill:#f9f,stroke:#333,stroke-width:2px;
-    style Daha-Fazla-Kod fill:#f9f,stroke:#333,stroke-width:2px;
-    style Hızlı-Uygulama fill:#f9f,stroke:#333,stroke-width:2px;
-    style Özel-İş-Mantığı fill:#f9f,stroke:#333,stroke-width:2px;
-    style Zor-Bakım fill:#f9f,stroke:#333,stroke-width:2px;
-    style Düşük-Test-Edilebilirlik fill:#f9f,stroke:#333,stroke-width:2px;
+style Model-View-ViewModel fill:#3d9fe2,stroke:#333,stroke-width:2px;
+    style Artilar fill:#3d9fe2,stroke:#333,stroke-width:2px;
+    style Eksiler fill:#3d9fe2,stroke:#333,stroke-width:2px;
+    style Separation-of-Concerns fill:#3d9fe2,stroke:#333,stroke-width:2px;
+    style Test-Edilebilirlik fill:#3d9fe2,stroke:#333,stroke-width:2px;
+    style Kolay-Bakım fill:#3d9fe2,stroke:#333,stroke-width:2px;
+    style Öğrenme-Eğrisi fill:#3d9fe2,stroke:#333,stroke-width:2px;
+    style Daha-Fazla-Kod fill:#3d9fe2,stroke:#333,stroke-width:2px;
+    style Hızlı-Uygulama fill:#3d9fe2,stroke:#333,stroke-width:2px;
+    style Özel-İş-Mantığı fill:#3d9fe2,stroke:#333,stroke-width:2px;
+    style Zor-Bakım fill:#3d9fe2,stroke:#333,stroke-width:2px;
+    style Düşük-Test-Edilebilirlik fill:#3d9fe2,stroke:#333,stroke-width:2px;
 
 
 
