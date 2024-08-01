@@ -1,5 +1,4 @@
 # MVVM Modeli ile Geleneksel WPF Uygulaması Arasındaki Farklar
-
 ## Soru 1: Şöyle geliştirilmiş bir uygulama ile MVVM modelindeki hali arasındaki farklar ne olur? Artılar ve eksiler nelerdir?
 
 ### Geleneksel WPF Uygulaması
@@ -314,35 +313,26 @@ Geleneksel WPF uygulamaları, hızlı bir başlangıç sağlasa da, MVVM modelin
 
 ```mermaid
 flowchart TB
-    A[Model-View-ViewModel (MVVM)] 
-    B[Geliştirilmiş Uygulama]
+    Model-View-ViewModel  --> Artılar
+    Model-View-ViewModel  --> Eksiler
 
-    A1[Artılar]
-    A2[Eksiler]
-    B1[Artılar]
-    B2[Eksiler]
+    
+    Gelistirilmis-Uygulama --> Artılar
+    Gelistirilmis-Uygulama --> Eksiler
 
-    A --> A1
-    A --> A2
-    B --> B1
-    B --> B2
+    Artilar --> Separation-of-Concerns
+    Artilar --> Test-Edilebilirlik
+    Artilar --> Kolay-Bakım
 
-    A1 --> A1_1[Separation of Concerns]
-    A1 --> A1_2[Test Edilebilirlik]
-    A1 --> A1_3[Kolay Bakım]
+    Eksiler --> Öğrenme-Eğrisi
+    Eksiler --> Daha-Fazla-Kod
 
-    A2 --> A2_1[Öğrenme Eğrisi]
-    A2 --> A2_2[Daha Fazla Kod]
+    Artilar --> Hızlı-Uygulama
+    Artilar --> Özel-İş-Mantığı
 
-    B1 --> B1_1[Hızlı Uygulama]
-    B1 --> B1_2[Özel İş Mantığı]
+    Eksiler --> Zor-Bakım
+    Eksiler --> Düşük-Test-Edilebilirlik
 
-    B2 --> B2_1[Zor Bakım]
-    B2 --> B2_2[Düşük Test Edilebilirlik]
 
-    classDef mvvm fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef traditional fill:#ccf,stroke:#333,stroke-width:2px;
 
-    A, A1, A2, A1_1, A1_2, A1_3, A2_1, A2_2 class mvvm;
-    B, B1, B2, B1_1, B1_2, B2_1, B2_2 class traditional;
 ```
