@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MVVMapp2/1.0.0": {
+        "runtime": {
+          "MVVMapp2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MVVMapp2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
