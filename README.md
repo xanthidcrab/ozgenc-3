@@ -313,12 +313,10 @@ Geleneksel WPF uygulamaları, hızlı bir başlangıç sağlasa da, MVVM modelin
 
 ```mermaid
 flowchart TB
-    Model-View-ViewModel  --> Artılar
+    Model-View-ViewModel  --> Artilar
     Model-View-ViewModel  --> Eksiler
 
     
-    Gelistirilmis-Uygulama --> Artılar
-    Gelistirilmis-Uygulama --> Eksiler
 
     Artilar --> Separation-of-Concerns
     Artilar --> Test-Edilebilirlik
@@ -333,6 +331,21 @@ flowchart TB
     Eksiler --> Zor-Bakım
     Eksiler --> Düşük-Test-Edilebilirlik
 
+style Model-View-ViewModel fill:#f9f,stroke:#333,stroke-width:2px;
+    style Artilar fill:#f9f,stroke:#333,stroke-width:2px;
+    style Eksiler fill:#f9f,stroke:#333,stroke-width:2px;
+    style Separation-of-Concerns fill:#f9f,stroke:#333,stroke-width:2px;
+    style Test-Edilebilirlik fill:#f9f,stroke:#333,stroke-width:2px;
+    style Kolay-Bakım fill:#f9f,stroke:#333,stroke-width:2px;
+    style Öğrenme-Eğrisi fill:#f9f,stroke:#333,stroke-width:2px;
+    style Daha-Fazla-Kod fill:#f9f,stroke:#333,stroke-width:2px;
+    style Hızlı-Uygulama fill:#f9f,stroke:#333,stroke-width:2px;
+    style Özel-İş-Mantığı fill:#f9f,stroke:#333,stroke-width:2px;
+    style Zor-Bakım fill:#f9f,stroke:#333,stroke-width:2px;
+    style Düşük-Test-Edilebilirlik fill:#f9f,stroke:#333,stroke-width:2px;
 
+
+
+    
 
 ```
